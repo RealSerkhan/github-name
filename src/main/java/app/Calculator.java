@@ -9,6 +9,6 @@ public class Calculator {
         int a=rs.nextInt();
         int b=rs.nextInt();
         int c=a+b;
-        System.out.println(c);
+        System.out.println("answer is: "+c);
     }
 }
