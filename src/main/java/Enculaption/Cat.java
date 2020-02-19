@@ -1,4 +1,4 @@
-package app;
+package Enculaption;
 
 public class Cat extends Animal {
     String name;
