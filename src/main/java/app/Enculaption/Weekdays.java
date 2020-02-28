@@ -1,4 +1,4 @@
-package app;
+package app.Enculaption;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -27,9 +27,7 @@ public class Weekdays {
                 String gun=null;
                 gun=rs.nextLine();
                 String a=gun.toLowerCase();
-//                char[] chars = new char[a.length()];
-//                int b=0;
-//                chars=a.toCharArray();
+
                 int b=0;
 
 

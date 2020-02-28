@@ -1,4 +1,4 @@
-package app;
+package app.Enculaption;
 
 import java.util.Scanner;
 
@@ -10,5 +10,6 @@ public class Calculator {
         int b=rs.nextInt();
         int c=a+b;
         System.out.println("answer is: "+c);
+        int[] arr = new int[3];
     }
 }

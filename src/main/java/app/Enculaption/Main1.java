@@ -1,8 +1,8 @@
-package Enculaption;
+package app.Enculaption;
 
 public class Main1 {
     public static void main(String[] args) {
-        Animal animal = new Animal();//+
+        Animal animal = new Animal();
 
         Animal cat = new Cat("Findiq",1);
 

@@ -1,5 +1,6 @@
-package app;
+package app.Enculaption;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Task1 {
@@ -32,8 +33,10 @@ public class Task1 {
             int[] arr1=new int[30];
             int f=0;
             Random rand1=new Random();
+
             for(int j=0;j<30;){
                 int c=rand1.nextInt(30 - (-30)) + (-30);
+
                 if(c%2!=0){
 
                     continue;

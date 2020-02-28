@@ -1,4 +1,4 @@
-package app;
+package app.Enculaption;
 
 public class Alphabet {
     public static void main(String[] args) {
@@ -7,6 +7,6 @@ public class Alphabet {
         for(chars = 'A'; chars <= 'Z'; ++chars)
            b.append(chars);
 
-        System.out.println(b);
+        System.out.println(b.toString());
     }
 }

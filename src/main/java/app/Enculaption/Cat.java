@@ -1,4 +1,4 @@
-package Enculaption;
+package app.Enculaption;
 
 public class Cat extends Animal {
     String name;
@@ -9,6 +9,6 @@ public class Cat extends Animal {
     }
     @Override
     public String toString(){
-        return String.format("My name is %s\ni am %d",name,year);
+        return String.format("My name is %s\ni am %d old",name,year);
     }
 }
