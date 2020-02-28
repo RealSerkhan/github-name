@@ -6,13 +6,16 @@ package app.Task11;
 
 
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.TreeMap;
 import java.util.stream.IntStream;
 
 public class Task11_4 {
         public static void main(String[] args) {
             String origin = "Hello World";
-            LinkedHashMap<Character, List<Integer>> map = new LinkedHashMap<>();
+            TreeMap<Character, List<Integer>> map = new TreeMap<>();
 
             IntStream.range(0, origin.length()).forEach(i -> {
                 char c = origin.charAt(i);
