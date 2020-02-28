@@ -1,6 +1,8 @@
 package ToComplete;
 
 public class Formatter3 implements Formatter {
+
+
     @Override
     public String changeApp(String a) {
         StringBuilder stringBuilder = new StringBuilder();
