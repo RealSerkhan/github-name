@@ -5,26 +5,24 @@ package Testsagain;
 public class Parantez {
 
     public int calc(String origin) {
-        int calculate=0;
+        int current=0;
 
-        int max_times=0;
+        int max=0;
         for (int i = 0; i <origin.length() ; i++) {
 
+
             if (origin.charAt(i)=='('){
-                calculate++;
+                current++;
             }
             else {
-
-
-                if (max_times<calculate){
-                    max_times=calculate;
+                if (max<current){
+                    max=current;
                 }
-                 calculate=0;
-
+                 current=0;
             }
 
         }
-        return max_times;
+        return max;
     }
 
 }
