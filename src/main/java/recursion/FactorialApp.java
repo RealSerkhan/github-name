@@ -4,13 +4,14 @@ public class FactorialApp {
 
 
   static int fact (int N, int index) {
-    if (N == index) return 1;
-    int partialFact = fact(N-1, index);
-    return N * partialFact;
+    if (N == 0) return 1;
+    int partialFact = fact(N, index-1);
+    return N + partialFact;
   }
 
   static int fact( int N) {
-    return fact(N, 0);
+    int a=N;
+    return fact(N, N);
   }
 
 
