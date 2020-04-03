@@ -4,12 +4,12 @@ public class XHashMap {
 
   private final int size;
   private final int[] k;
-  private final String[] v;
+  private final String[] u;
 
   public XHashMap(int size) {
     this.size = size;
     this.k = new int[size];
-    this.v = new String[size];
+    this.u = new String[size];
   }
 
   public void put(int key, String data) {
@@ -18,7 +18,7 @@ public class XHashMap {
       idx++;
     }
     k[idx] = key;
-    v[idx] = data;
+    u[idx] = data;
   }
 
   private int index(int key) {
@@ -30,6 +30,6 @@ public class XHashMap {
     if (k[idx]!=key) {
       idx++;
     }
-    return v[idx];
+    return u[idx];
   }
 }
